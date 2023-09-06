@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>javascript topic 06/09</title>
+		
+</head>
+<body>
+<script type="text/javascript" >
+			var a="Topic - ";
+			var b=" Javascript";
+			var c=a+b;
+			document.write(c);
+			document.write("<br>");
+			
+			
+			//hello("Prathibha");
+			
+
+			 function hello(name) {
+			 	const msg="Hello ";
+			 	document.write(msg+name+"<br>");
+
+			 }
+
+
+
+
+			//age(20);
+
+			function age(age) 
+			{
+				if(age<15){
+				document.write("\nYou are Innocent\n");
+			}
+			else{
+				document.write("\n You  are Adult\n");
+			}
+				
+			}
+			
+			greet("Prathibha");
+			function greet(name,salutation="Hello") {
+				console.log(`${salutation}`, `${name}`);
+			}
+
+
+
+
+
+
+			display("Prathibha ",20," Good Morning");
+
+			function display(name,age,greets) {
+				document.write("<br>"+greets+name);
+				if(age<15){
+				document.write("\nYou are Innocent");
+			}
+			else{
+				document.write("\n Your age is "+age+" You are Adult");
+			}
+				
+			}
+
+
+
+		</script>
+</body>
+</html>
